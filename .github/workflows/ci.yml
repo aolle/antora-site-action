@@ -27,7 +27,7 @@ jobs:
            registry: ghcr.io
            tags: |
             ghcr.io/aolle/antora-site-action:latest
-      - uses: GoogleCloudPlatform/release-please-action@v3.2.9
+      - uses: GoogleCloudPlatform/release-please-action@v3.7.12
         id: release
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
